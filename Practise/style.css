@@ -1,0 +1,41 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 20vw;
+    height: 20vw;
+    background-color: rebeccapurple;
+    border: 2px solid none;
+    box-shadow: 0 0 10px rosybrown;
+    margin: 20vw 30vw;
+    padding: 1px 4px;
+}
+
+.box1{
+    height: 15%;
+    width: 15%;
+    background-color: rgb(189, 203, 69);
+    margin: 3px;
+}
+.box2{
+    height: 15%;
+    width: 15%;
+    background-color: rgb(198, 202, 206);
+    margin: 3px;
+}
+.box3{
+    height: 15%;
+    width: 15%;
+    background-color: rgb(219, 60, 60);
+    margin: 3px;
+}
+
+.container::hover{
+    
+}

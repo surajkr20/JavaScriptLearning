@@ -1,0 +1,26 @@
+body{
+    background-color: pink;
+}
+h1{
+    background-color: yellow;
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    border: 2px black solid;
+}
+h1:hover{
+    background-color: black;
+    border: 2px yellow solid;
+    color: white;
+}
+button{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 1px green;
+    width: 80px;
+    height: 25px;
+}
+button:hover{
+    background-color: black;
+    border: 2px green solid;
+}
